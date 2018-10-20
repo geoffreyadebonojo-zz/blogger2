@@ -1,10 +1,20 @@
-div {
-  border-bottom: 1px solid #efefef;
-  margin: 10px;
-  padding-bottom: 10px;
-  width: 220px;
+h1 {
+  font-size: 72px;
+  font-family: impact;
+  line-height: 1.2;
 }
 
-a {
- 
+ul {
+  list-style-type: none;
+}
+
+li {
+  border-bottom: 3px solid #efefef;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+}
+
+.article-title {
+  font-size: 2em;
 }
