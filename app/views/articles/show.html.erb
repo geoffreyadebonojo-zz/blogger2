@@ -1,3 +1,4 @@
 <h1><%= @article.title %></h1>
-<p><%= @article.body %></p>
-<p><%= @time %></p>
+<p class="timestamp"><%= @time %></p>
+<p id="article-body"><%= @article.body %></p>
+<%= link_to "<< Back to Articles List", articles_path, class: "article-link" %>

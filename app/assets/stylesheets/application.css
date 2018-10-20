@@ -23,3 +23,26 @@ body {
   font: 75% georgia, sans-serif;
   line-height: 1.888889;
 }
+
+h1 {
+  font-size: 72px;
+  font-family: impact;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.timestamp{
+  font-style: oblique;
+  text-align: left;
+}
+
+.article-link {
+  font-size: 2em;
+}

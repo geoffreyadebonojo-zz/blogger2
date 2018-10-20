@@ -3,14 +3,13 @@
 <ul id="articles">
   <% @articles.each do |article| %>
     <li>
-      <span class="title">
+      <p class="title">
         <%= link_to article.title, article_path(article),
     class: 'article-title', id: "article-#{article.id}" %>
-
-     </span>
-      <div class= "timestamp">
+      </p>
+      <p class= "timestamp">
         <%= article.created_at %>
-      </div>
+      </p>
     </li>
   <% end %>
 </ul>
