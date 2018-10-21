@@ -16,5 +16,15 @@ li {
 }
 
 .article-title {
+  color: #26724A;
   font-size: 2em;
+}
+
+.new-article-link {
+  color: #32648F;
+  font-size: 2em;
+}
+
+.new-article-link:hover {
+  color: #20405C;
 }
