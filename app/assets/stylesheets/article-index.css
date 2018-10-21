@@ -1,11 +1,32 @@
-h1 {
+#nav {
   font-size: 72px;
   font-family: impact;
-  line-height: 1.2;
+  line-height: 1;
+  position: fixed;
+  top: 0px;
+  left: 50px;
+  margin: 0px;
+  padding: 20px;
+  width: 80%;
+  background-color: #efefef;
+  z-index: 2;
+}
+
+.new-article-link {
+  color: #32648F;
+  font-size: 0.5em;
+  float: right;
+}
+
+.new-article-link:hover {
+  color: #20405C;
 }
 
 ul {
   list-style-type: none;
+  position: relative;
+  top: 160px;
+  left: 70px;
 }
 
 li {
@@ -16,5 +37,6 @@ li {
 }
 
 .article-title {
+  color: #26724A;
   font-size: 2em;
 }

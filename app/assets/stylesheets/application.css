@@ -14,14 +14,23 @@
  *= require_self
  */
 
+* {
+  /* font-family: 75% georgia, sans-serif; */
+  font-family: monospace;
+}
+
  html {
   margin: 0;
   padding: 0;
+  /* background-color: #FBFBF2;  floralwhite*/
+  /* background-color: #E5E6E4; /*platinum*/
+  /* background-color: #CFD2CD; lightgrey */
+  background-color: #A6A2A2; /*quicksilver*/
+  /* background-color: #847577; sonicsilver */
 }
 
 body {
-  font: 75% georgia, sans-serif;
-  line-height: 1.888889;
+  line-height: 1.2;
 }
 
 h1 {
@@ -31,11 +40,17 @@ h1 {
 }
 
 a {
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
+  color: #034732;
   text-decoration: underline;
+}
+
+a:visited{
+
 }
 
 .timestamp{
@@ -44,5 +59,6 @@ a:hover {
 }
 
 .article-link {
+  color: #26724A;
   font-size: 2em;
 }
