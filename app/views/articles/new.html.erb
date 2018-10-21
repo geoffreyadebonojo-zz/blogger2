@@ -1,3 +1,5 @@
+<%= link_to "<< Back to Articles List", articles_path, class: "article-link" %>
+
 <h1>Create a New Article</h1>
 
 <%= form_for(@article) do |f| %>
@@ -15,6 +17,6 @@
     <%= f.text_area :body %>
   </p>
   <p>
-    <%= f.submit %>
+    <%= f.submit id: "submit" %>
   </p>
 <% end %>
