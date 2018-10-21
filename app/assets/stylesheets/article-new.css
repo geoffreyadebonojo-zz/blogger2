@@ -1,4 +1,66 @@
+
+
+
+/*
+palette
+#8A310B
+#EAF9D9
+#708D81
+#EFBC9B
+#C2CFB2
+*/
+
+
+a {
+  font-style: unset;
+}
+
+
+/*! STYLING FORM*/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 100px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #485678;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 100px;
+}
+
+input[type=submit]:hover {
+  background-color: #697490;
+  font-size: 100px;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#pages-field, #year-field{
+  width: 5%;
+}
+
+#submit{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 input#submit {
+  border-radius: 80px 50px;
   color: #444444;
   text-shadow: 0px 1px 1px #ffffff;
   border-bottom: 2px solid #b2b2b2;
